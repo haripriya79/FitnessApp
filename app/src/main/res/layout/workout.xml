@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view_workout"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    card_view:cardCornerRadius="4dp"
+    card_view:cardElevation="6dp"
+    android:layout_margin="16dp"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:clickable="true"
+    android:focusable="true">
+
+    <TextView
+        android:id="@+id/tv_sub_workout_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/primaryText"
+        tools:text="Recipe Introduction"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="end"
+        card_view:srcCompat="@drawable/ic_baseline_arrow_forward_ios_48"
+        android:contentDescription="@string/todo" />
+
+</androidx.cardview.widget.CardView>

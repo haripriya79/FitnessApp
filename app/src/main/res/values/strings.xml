@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Fitness App</string>
+    <string name="appwidget_text">Select the Workouts t0 show</string>
+    <string name="add_widget">Add widget</string>
+    <string name="completed">Completed</string>
+    <string name="todo">TODO</string>
+
+    <string name="signout">Sign Out</string>
+    <string name="fitness_app">Fitness App</string>
+</resources>
